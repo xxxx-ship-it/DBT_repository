@@ -1,4 +1,4 @@
-{{dbt.config(materialized = "table")}}
+{{ config(materialized = "table") }}
 
 WITH CTE AS (
 SELECT 
